@@ -4,7 +4,7 @@ export default component$(({ name, fn$ }: HandProps) => {
   return (
     <>
       <div
-        class="relative grid place-content-center transition-transform hover:scale-110"
+        class="relative grid place-content-center transition-transform hover:scale-110 active:brightness-150"
         aria-labelledby={`hand-${name}`}
       >
         <input
