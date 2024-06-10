@@ -1,4 +1,4 @@
-import { QRL, component$ } from "@builder.io/qwik";
+import { component$ } from "@builder.io/qwik";
 
 export default component$(({ name, fn$ }: HandProps) => {
   return (

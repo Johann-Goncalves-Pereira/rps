@@ -60,11 +60,11 @@ export default component$(() => {
           </li>
         </ul>
 
-        <h3
+        <p
           class={`text-5xl ${store.result === "You win" ? "text-green-500" : store.result === "Computer win" ? "text-red-500" : ""}`}
         >
           {store.result}
-        </h3>
+        </p>
       </div>
     </>
   );
