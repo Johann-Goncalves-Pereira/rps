@@ -11,6 +11,7 @@ export default component$(({ name, fn$ }: HandProps) => {
           class="absolute inset-0 cursor-pointer opacity-0"
           type="radio"
           name="name"
+          aria-label={name}
           onClick$={fn$}
         />
         <label class="p-4 text-9xl" id={`hand-${name}`}>

@@ -34,7 +34,7 @@ export default component$(() => {
 
   return (
     <>
-      <form class="mx-auto flex w-fit gap-8">
+      <form class="mx-auto flex w-fit flex-wrap items-center justify-center gap-8">
         {hands.map((hand, i) => (
           <Hand
             name={hand}
@@ -49,12 +49,12 @@ export default component$(() => {
       </form>
 
       <div class="mt-24 grid place-items-center">
-        <ul class="grid grid-flow-col gap-8 text-5xl">
-          <li class="flex w-[13ch] flex-col items-center gap-6">
+        <ul class="mx-auto flex w-fit flex-wrap items-center gap-8 text-5xl">
+          <li class="mx-auto flex flex-col items-center gap-6 text-center sm:w-[13ch]">
             Your hand
             <p>{emoji(store.playerHand)}</p>
           </li>
-          <li class="flex  w-[13ch] flex-col items-center gap-6">
+          <li class="mx-auto flex flex-col items-center gap-6 text-center sm:w-[13ch]">
             Computer hand
             <p>{emoji(store.computerHand)}</p>
           </li>
