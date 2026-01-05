@@ -1,4 +1,4 @@
-![Uploading image.png…]()
+<img width="1285" height="712" alt="image" src="https://github.com/user-attachments/assets/3f5510a9-e80a-4a1d-910a-8970ea4d56cf" />
 
 
 # Qwik City App ⚡️
